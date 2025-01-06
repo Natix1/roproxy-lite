@@ -5,12 +5,11 @@ import (
 	"time"
 	"os"
 	"github.com/valyala/fasthttp"
-	"strconv"
 	"strings"
 )
 
-var timeout, _ = 5
-var retries, _ = 5
+var timeout = 5
+var retries = 5
 var port = 6900
 
 var client *fasthttp.Client
